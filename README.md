@@ -9,16 +9,19 @@ curl -sSL https://get.haskellstack.org/ | sh
 
 Add ```export PATH=$PATH:/Users/georgecampbell/.local/bin``` to ```~/.bash_profile```
 
-## Install from GitHub
+## Install from GitHub or Build from Scratch
 
-git clone
+### Install from GitHub
+```
+git clone https://github.com/geocolumbus/haskell-notes.git
 cd haskell-notes
 stack setup
 stack build
 stack exec haskell-notes-exe
+```
 
-## Build a Project from Scratch
-
+### Build a Project from Scratch
+```
 stack new haskell-notes
 cd haskell-notes
 stack setup
