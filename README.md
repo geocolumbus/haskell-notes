@@ -1,7 +1,12 @@
 # haskell-notes
 
-## Install Haskell on the Mac
+## PreReqs
+```
+brew install python3
+brew install coreutils
+```
 
+## Install Haskell on the Mac
 ```
 curl https://get-ghcup.haskell.org -sSf | sh
 curl -sSL https://get.haskellstack.org/ | sh
