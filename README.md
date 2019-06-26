@@ -12,7 +12,7 @@ curl https://get-ghcup.haskell.org -sSf | sh
 curl -sSL https://get.haskellstack.org/ | sh
 ```
 
-Add ```export PATH=$PATH:/Users/georgecampbell/.local/bin``` to ```~/.bash_profile```
+Add ```export PATH=$PATH:~/.local/bin``` to ```~/.bash_profile```
 
 ## Install from GitHub
 ```
