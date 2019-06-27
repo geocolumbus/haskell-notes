@@ -26,3 +26,9 @@ stack setup
 stack build
 stack exec haskell-notes-exe
 ```
+
+## Haskell Documentation
+
+* [Documentation](https://www.haskell.org/documentation/)
+* [Quick Reference](https://wiki.haskell.org/Reference_card)
+* [Tutorials](https://wiki.haskell.org/Tutorials)
